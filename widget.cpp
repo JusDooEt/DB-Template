@@ -20,6 +20,7 @@ Widget::Widget(QWidget *parent)
         qDebug() << "Database not connected";
     }
 
+    qDebug() << "Data: ";
     displayTable("Users");
 }
 
